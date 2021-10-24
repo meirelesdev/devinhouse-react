@@ -1,18 +1,18 @@
 import Header from '../../components/header'
 
-function Semana9(props) {
+function Semana9() {
   const items = [
-    { refs: "semana9/segunda", title: "Segunda" },
-    { refs: "semana9/terca", title: "Terça" },
-    { refs: "semana9/quarta", title: "Quarta" },
-    { refs: "semana9/quinta", title: "Quinta" },
-    { refs: "semana9/sexta", title: "Sexta" },
+    { refs: "/semana9/segunda", title: "Segunda", class:"active" },
+    { refs: "/semana9/terca", title: "Terça", class:"active" },
+    { refs: "/semana9/quarta", title: "Quarta", class:"active" },
+    { refs: "/semana9/quinta", title: "Quinta", class:"active" },
+    { refs: "/semana9/sexta", title: "Sexta" , class:"active" },
   ]
   return(
-    <div className="container">
+    <main className="container">
       <Header items={items} />
         <h1>Semana 9</h1>
-    </div>
+    </main>
   )  
 }
 

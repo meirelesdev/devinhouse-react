@@ -61,6 +61,13 @@ a.disabled {
     background-color: rgb(209, 209, 209);
     color: rgb(213, 208, 208);
 }
+main.container {
+    min-height: 90vh;
+}
+footer {
+    margin: auto;
+    max-width: 1024px;
+}
 @media (max-width: 700px){
     .logo {
         flex: 1;
