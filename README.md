@@ -3,7 +3,7 @@
 
 Este repositorio foi criado para adicionar os conteudos e exercicios aprendidos e desenvolvidos no curso DevinHouse apartir dos conhecimentos adiquiridos em React.
 
-- [Projeto Online Aqui](https://meirelesdev.github.io/devinhouse-react/)
+- O projeto esta hospedado na Netlify neste [neste Link](https://devinhouse-react.netlify.app/)
 <p align="center">	
    <a href="https://www.linkedin.com/in/developer-danielmn/">
       <img alt="Daniel Meireles" src="https://img.shields.io/badge/-Daniel Meireles-0080000?style=flat&logo=Linkedin&logoColor=white" />
