@@ -4,7 +4,7 @@ export const Post = ({ user, post }) => {
         <div className="post">
             <div className="user-info">
                 <div className="user-img">
-                    <img srcSet="https://thispersondoesnotexist.com/image" />
+                    <img srcSet="https://thispersondoesnotexist.com/image" alt={`Foto do Usuario ${user.name}`}/>
                 </div>
                 <div className="user">
                     <p>{user.name}</p>
@@ -14,7 +14,7 @@ export const Post = ({ user, post }) => {
             </div>
             <div className="post-info">
                 <p>{post.description}</p>
-                <img srcSet={post.img} />
+                <img srcSet={post.img} alt="imagem do post"/>
             </div>
             <div className="comments-info">
                 <div className="comments">
