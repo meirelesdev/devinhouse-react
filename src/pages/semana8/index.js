@@ -3,11 +3,11 @@ import Header from '../../components/header'
 
 function Semana8(props) {
   const items = [
-    { refs: "/semana8/segunda/", title: "Segunda"  },
-    { refs: "/semana8/terca/", title: "Terça"},
-    { refs: "/semana8/quarta/", title: "Quarta", class: "active" },
-    { refs: "/semana8/quinta/", title: "Quinta", class: "active" },
-    { refs: "/semana8/sexta/", title: "Sexta", class: "active" },
+    { refs: "/semana8/segunda", title: "Segunda"  },
+    { refs: "/semana8/terca", title: "Terça"},
+    { refs: "/semana8/quarta", title: "Quarta", class: "active" },
+    { refs: "/semana8/quinta", title: "Quinta", class: "active" },
+    { refs: "/semana8/sexta", title: "Sexta", class: "active" },
   ]
   return(
     <main className="container">

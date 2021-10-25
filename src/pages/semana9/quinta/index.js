@@ -3,8 +3,8 @@ import Header from "../../../components/header"
 
 const Semana9Quinta = () => {
     const items = [
-        { refs: "/", title: "Voltar Home", class: "active" },
-        { refs: "/semana9/", title: "Voltar Incio Semana", class: "active" },
+        { refs: "", title: "Voltar Home", class: "active" },
+        { refs: "/semana9", title: "Voltar Incio Semana", class: "active" },
     ]
     return (
         <main className="container">
