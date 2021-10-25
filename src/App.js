@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Home from './pages/home'
 import Semana8 from './pages/semana8';
@@ -18,25 +18,51 @@ import Semana9Quinta from './pages/semana9/quinta';
 import Semana9Sexta from './pages/semana9/sexta';
 
 function App() {
-
-
   return (
-    <BrowserRouter>
+    <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/semana8" exact component={Semana8} />
-        <Route path="/semana8/quarta" exact component={Semana8Quarta} />
-        <Route path="/semana8/quarta/exercicios" exact component={Semana8QuartaExercicios} />
-        <Route path="/semana8/quinta" exact component={Semana8Quinta} />
-        <Route path="/semana8/sexta" exact component={Semana8Sexta} />
-        <Route path="/semana9" exact component={Semana9} />
-        <Route path="/semana9/segunda" exact component={Semana9Segunda} />
-        <Route path="/semana9/segunda/exercicios" exact component={Semana9SegundaExercicios} />
-        <Route path="/semana9/terca" exact component={Semana9Terca} />
-        <Route path="/semana9/quarta" exact component={Semana9Quarta} />
-        <Route path="/semana9/quinta" exact component={Semana9Quinta} />
-        <Route path="/semana9/sexta" exact component={Semana9Sexta} />
-        <Route path="/semana10" exact component={Semana10} />
+        <Route exact path="/" >
+          <Home />
+        </Route>
+        <Route path="/semana8/quarta/exercicios">
+          <Semana8QuartaExercicios />
+        </Route>
+        <Route path="/semana8/quarta">
+          <Semana8Quarta />
+        </Route>
+        <Route path="/semana8">
+          <Semana8 />
+        </Route>
+        <Route path="/semana8/quinta">
+          <Semana8Quinta />
+        </Route>
+        <Route path="/semana8/sexta" >
+          <Semana8Sexta />
+        </Route>
+        <Route path="/semana9/segunda/exercicios" >
+          <Semana9SegundaExercicios />
+        </Route>
+        <Route path="/semana9/segunda" >
+          <Semana9Segunda />
+        </Route>
+        <Route path="/semana9/terca">
+          <Semana9Terca />
+        </Route>
+        <Route path="/semana9/quarta">
+          <Semana9Quarta />
+        </Route>
+        <Route path="/semana9/quinta">
+          <Semana9Quinta />
+        </Route>
+        <Route path="/semana9/sexta" >
+          <Semana9Sexta />
+        </Route>
+        <Route path="/semana9">
+          <Semana9 />
+        </Route>
+        <Route path="/semana10" >
+          <Semana10 />
+        </Route>
       </Switch>
       <hr />
       <footer>
@@ -44,7 +70,7 @@ function App() {
           Todos os direitos reservados
         </div>
       </footer>
-    </BrowserRouter>
+    </Router>
   );
 }
 
