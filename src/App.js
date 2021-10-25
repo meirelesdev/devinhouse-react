@@ -21,48 +21,20 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" >
-          <Home />
-        </Route>
-        <Route path="/semana8/quarta/exercicios">
-          <Semana8QuartaExercicios />
-        </Route>
-        <Route path="/semana8/quarta">
-          <Semana8Quarta />
-        </Route>
-        <Route path="/semana8">
-          <Semana8 />
-        </Route>
-        <Route path="/semana8/quinta">
-          <Semana8Quinta />
-        </Route>
-        <Route path="/semana8/sexta" >
-          <Semana8Sexta />
-        </Route>
-        <Route path="/semana9/segunda/exercicios" >
-          <Semana9SegundaExercicios />
-        </Route>
-        <Route path="/semana9/segunda" >
-          <Semana9Segunda />
-        </Route>
-        <Route path="/semana9/terca">
-          <Semana9Terca />
-        </Route>
-        <Route path="/semana9/quarta">
-          <Semana9Quarta />
-        </Route>
-        <Route path="/semana9/quinta">
-          <Semana9Quinta />
-        </Route>
-        <Route path="/semana9/sexta" >
-          <Semana9Sexta />
-        </Route>
-        <Route path="/semana9">
-          <Semana9 />
-        </Route>
-        <Route path="/semana10" >
-          <Semana10 />
-        </Route>
+        <Route exact path="/"  component={Home} />
+        <Route path="/semana8/quarta/exercicios" component={Semana8QuartaExercicios} />
+        <Route path="/semana8/quarta" component={Semana8Quarta} />
+        <Route path="/semana8" component={Semana8} />
+        <Route path="/semana8/quinta" component={Semana8Quinta} />
+        <Route path="/semana8/sexta"  component={Semana8Sexta} />
+        <Route path="/semana9/segunda/exercicios"  component={Semana9SegundaExercicios} />
+        <Route path="/semana9/segunda"  component={Semana9Segunda} />
+        <Route path="/semana9/terca" component={Semana9Terca} />
+        <Route path="/semana9/quarta" component={Semana9Quarta} />
+        <Route path="/semana9/quinta" component={Semana9Quinta} />
+        <Route path="/semana9/sexta"  component={Semana9Sexta} />
+        <Route path="/semana9" component={Semana9} />
+        <Route path="/semana10"  component={Semana10} />
       </Switch>
       <hr />
       <footer>
