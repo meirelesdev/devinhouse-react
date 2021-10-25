@@ -3,7 +3,7 @@ import Header from "../../../components/header"
 
 const Semana9Segunda = () => {
     const items = [
-        { refs: "/semana9/segunda/exercicios", title: "Exercicios Da Semana", class: "active" },
+        { refs: "/semana9/segunda/exercicios/", title: "Exercicios Da Semana", class: "active" },
         { refs: "/", title: "Voltar Home", class: "active" },
         { refs: "/semana9/", title: "Voltar Incio Semana", class: "active" },
     ]
