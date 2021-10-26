@@ -12,10 +12,13 @@ import Semana8Sexta from './pages/semana8/sexta';
 import Semana8QuartaExercicios from './pages/semana8/quarta/Exercicios';
 import Semana9Segunda from './pages/semana9/segunda';
 import Semana9SegundaExercicios from './pages/semana9/segunda/Exercicios';
+import Semana10SegundaExercicios from './pages/semana10/segunda/Exercicios';
 import Semana9Terca from './pages/semana9/terca';
 import Semana9Quarta from './pages/semana9/quarta';
 import Semana9Quinta from './pages/semana9/quinta';
 import Semana9Sexta from './pages/semana9/sexta';
+import Semana10Segunda from './pages/semana10/segunda';
+import Semana10Terca from './pages/semana10/terca';
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
         <Route path="/semana9/quinta" component={Semana9Quinta} />
         <Route path="/semana9/sexta"  component={Semana9Sexta} />
         <Route path="/semana9" component={Semana9} />
+        <Route path="/semana10/segunda/exercicios"  component={Semana10SegundaExercicios} />
+        <Route path="/semana10/segunda"  component={Semana10Segunda} />
+        <Route path="/semana10/terca"  component={Semana10Terca} />
         <Route path="/semana10"  component={Semana10} />
       </Switch>
       <hr />
