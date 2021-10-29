@@ -1,7 +1,6 @@
-import { Content } from '../../components/ContentDay'
-import Header from '../../components/header'
+import Main from '../../components/Main'
 
-function Semana8(props) {
+const Semana8 = props => {
   const items = [
     { refs: "/semana8/segunda", title: "Segunda"  },
     { refs: "/semana8/terca", title: "Terça"},
@@ -10,13 +9,20 @@ function Semana8(props) {
     { refs: "/semana8/sexta", title: "Sexta", class: "active" },
   ]
   return(
-    <main className="container">
-      <Header items={items} />
-        <h1>Semana 8</h1>
-        <Content>
-          <p>Neste semana devido ao feriado do dia 12 de outubro e do dia 15 não tivemos aula na segunda e terça.</p>
-        </Content>
-    </main>
+    <Main items={items} title="Conteudo da Semana 8">
+       <ul>
+        <li>O que é React ?</li>
+        <li>Componentes</li>
+        <li>niciando o Projeto - Geometrizando.</li>
+        <li>Conferindo o ambiente de desenvolvimento</li>
+        <li>Componentes e props</li>
+        <li>Continuando com Geometrizando</li>
+        <li>Revisão do projetos Geometrizando</li>
+        <li>PropTypes</li>
+        <li>Aplicando propTypes</li>
+        <li>Projeto Pokemon</li>
+      </ul>
+    </Main>
   )  
 }
 

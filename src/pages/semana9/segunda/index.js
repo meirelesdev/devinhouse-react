@@ -1,5 +1,4 @@
-import { Content } from "../../../components/ContentDay"
-import Header from "../../../components/header"
+import Main from "../../../components/Main"
 
 const Semana9Segunda = () => {
     const items = [
@@ -8,15 +7,11 @@ const Semana9Segunda = () => {
         { refs: "/semana9", title: "Voltar Incio Semana", class: "active" },
     ]
     return (
-        <main className="container">
-            <Header items={items} />
-            <h1>Aula do Dia: Segunda</h1>
-            <Content>
-                    <p>Estado e setState</p>
-                    <p>Componentes funcionais</p>
-                    <p>Introdução à hooks: useState</p>
-            </Content>
-        </main>
+        <Main items={items} content={true} title="Aula do Dia: Segunda">
+            <p>Estado e setState</p>
+            <p>Componentes funcionais</p>
+            <p>Introdução à hooks: useState</p>
+        </Main>
     )
 }
 export default Semana9Segunda

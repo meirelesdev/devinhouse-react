@@ -1,5 +1,5 @@
 import { Content } from "../../../components/ContentDay"
-import Header from "../../../components/header"
+import Header from "../../../components/Header"
 
 const Semana10Terca = () => {
     const items = [

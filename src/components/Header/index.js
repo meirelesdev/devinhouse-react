@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Menu from '../menu/index'
+import Menu from '../Menu/index'
 
 const Header = ({ items, ...props }) => {
   return (

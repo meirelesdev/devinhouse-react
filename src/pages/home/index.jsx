@@ -1,5 +1,5 @@
 
-import Header from '../../components/header/index'
+import Main from '../../components/Main';
 
 function Home() { 
   const items = [
@@ -8,12 +8,10 @@ function Home() {
     { refs: "/semana10", title: "Semana 10", class: "active" }
   ]
   return (
-    <main className="container">
-      <Header items={items} />
-        <h1>Aulas ReacJS</h1>
+    <Main title="Aulas ReacJS" items={items} >
         <p>Nesta Etapa do curso iniciamos o Aprindizado e desenvolvimento de atividade em ReacJS</p>
-    </main>
-  );
+    </Main>
+  )
 }
 
 export default Home;
