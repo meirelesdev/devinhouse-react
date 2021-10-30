@@ -18,10 +18,15 @@ import Semana10Segunda from '../pages/semana10/segunda';
 import Semana10Terca from '../pages/semana10/terca';
 import Semana10Quarta from '../pages/semana10/quarta';
 import Semana10Quinta from '../pages/semana10/quinta';
+import Semana from '../pages/semana';
+import Dia from '../pages/semana/dia';
 
 const Routes = () => {
   return (
     <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/semana/:id" component={Semana} />
+      <Route exact path="/semana/:id/:dia" component={Dia} />
       <Route exact path="/" component={Home} />
       <Route path="/semana8/quarta/exercicios" component={Semana8QuartaExercicios} />
       <Route path="/semana8/quarta" component={Semana8Quarta} />
