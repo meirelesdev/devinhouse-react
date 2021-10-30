@@ -29,7 +29,6 @@ const Routes = () => {
       <Route exact path="/semana/:id" component={Semana} />
       <Route exact path="/semana/:id/:dia" component={Dia} />
       <Route exact path="/semana/:id/:dia/exercicios" component={Exercicios} />
-      <Route exact path="/" component={Home} />
       <Route path="/semana8/quarta/exercicios" component={Semana8QuartaExercicios} />
       <Route path="/semana8/quarta" component={Semana8Quarta} />
       <Route path="/semana8/quinta" component={Semana8Quinta} />

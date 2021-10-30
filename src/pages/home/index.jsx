@@ -1,15 +1,14 @@
-
 import Main from '../../components/Main';
+import { content } from '../../data/conteudo-semanas-aulas'
+import { getMenuSemanas } from '../../services/functions'
 
-function Home() { 
-  const items = [
-    { refs: "/semana8", title: "Semana 8", class: "active" },
-    { refs: "/semana9", title: "Semana 9", class: "active" },
-    { refs: "/semana10", title: "Semana 10", class: "active" }
-  ]
+const Home = () => {
+  const semanas = Object.keys(content.conteudo)
+  const menu = getMenuSemanas(semanas)
+  
   return (
-    <Main title="Aulas ReacJS" items={items} >
-        <p>Nesta Etapa do curso iniciamos o Aprindizado e desenvolvimento de atividade em ReacJS</p>
+    <Main title="Aulas ReacJS" items={menu} >
+      <p>Nesta Etapa do curso iniciamos o Aprindizado e desenvolvimento de atividade em ReacJS</p>
     </Main>
   )
 }

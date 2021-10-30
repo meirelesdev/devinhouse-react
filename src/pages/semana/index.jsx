@@ -1,12 +1,9 @@
 import { useParams } from "react-router"
 import Main from "../../components/Main";
 import { content } from '../../data/conteudo-semanas-aulas'
-
 import { toUpperFirtLetter } from '../../services/functions'
 
-
-
-const Semana = props => {
+const Semana = () => {
     const { id } = useParams()
     const {dias, conteudo } = content.conteudo[`semana${id}`];
     const arrDias = Object.keys(dias)

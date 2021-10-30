@@ -3,167 +3,173 @@ export const content = {
         semana1: {
             conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 },
             }
         },
         semana2: {
+            conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 }
             }
         },
         semana3: {
+            conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 },
             }
         },
         semana4: {
+            conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 },
             }
         },
         semana5: {
+            conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 },
             }
         },
         semana6: {
+            conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 },
             }
         },
         semana7: {
+            conteudo: [],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
                     conteudo: []
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
                     conteudo: []
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
                     conteudo: []
                 },
@@ -183,25 +189,29 @@ export const content = {
                 "Projeto Pokemon"
             ],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: false,
                     conteudo: []
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
                     conteudo: []
                 },
-                quarta: { 
+                quarta: {
                     exercicios: true,
-                    conteudo: ["Componentes e Props", "Continuando com - Geometrizando"]
+                    conteudo: ["O que é React ?", "Componentes", "Iniciando o Projeto - Geometrizando"]
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ["Componentes e props", "Continuando com - Geometrizando."]
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ["Revisão do projetos Geometrizando", "PropTypes", "Aplicando propTypes"]
+                },
+                sabado: {
+                    exercicios: false,
+                    conteudo: ["Tira duvidas"]
                 }
             }
         },
@@ -218,25 +228,29 @@ export const content = {
                 "Components controlados X não Controlados"
             ],
             dias: {
-                segunda: { 
-                    exercicios: true,
-                    conteudo: []
-                },
-                terca: { 
+                segunda: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Estado e setState',
+                        'Componentes funcionais',
+                        'Introdução à hooks: useState( )'
+                    ]
                 },
-                quarta: { 
+                terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Hook useEffect( )', 'Hook useRef( )']
                 },
-                quinta: { 
+                quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Usar hooks no sistema Pokemon', 'Transformar o Housebook em app React']
                 },
-                sexta: { 
+                quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Eventos React x DOM', 'Componentes controlados X não controlados']
+                },
+                sexta: {
+                    exercicios: false,
+                    conteudo: ['Tira duvidas']
                 },
             }
         },
@@ -262,25 +276,45 @@ export const content = {
                 "Styled components"
             ],
             dias: {
-                segunda: { 
+                segunda: {
                     exercicios: true,
-                    conteudo: []
+                    conteudo: [
+                        'Como funcionam as rotas de navegação com React',
+                        'Utilizando a lib React-Router-Dom', 'Criando nossas próprias rotas',
+                        'Elaborando nossa própria rota customizada',
+                        'Entendendo como funciona o UseHistory, UseParams, UseLocation',
+                        'Outros componentes que utilizaremos',
+                        'Desafio, criar um projeto que utilize todos estes conceitos'
+                    ]
                 },
-                terca: { 
+                terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Revisando a aula anterior sobre rotas da aplicação',
+                        'Conceitos de estados em outras telas',
+                        'Como funciona o useContext',
+                        'Aprendendo na prática utilizando o useContext',
+                        'Consumindo api e combinando com useContext'
+                    ]
                 },
-                quarta: { 
+                quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Revisando a aula anterior sobre useContext',
+                        'Como funciona o useReducer',
+                        'Aprendendo na prática utilizando o useReducer criando uma aplicação darkMode simples'
+                    ]
                 },
-                quinta: { 
+                quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'CSS-in-JS',
+                        'Styled components'
+                    ]
                 },
-                sexta: { 
+                sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 },
             }
         }
