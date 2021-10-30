@@ -2,20 +2,26 @@ import { useParams } from "react-router"
 import Main from "../../components/Main";
 import { content } from '../../data/conteudo-semanas-aulas'
 
+import { toUpperFirtLetter } from '../../services/functions'
+
+
+
 const Semana = props => {
     const { id } = useParams()
     const {dias, conteudo } = content.conteudo[`semana${id}`];
-    console.log(dias)
-    console.log(conteudo)
-    const items = [
-        { refs: `/semana/${id}/segunda`, title: "Segunda"},
-        { refs: `/semana/${id}/terca`, title: "Terça"},
-        { refs: `/semana/${id}/quarta`, title: "Quarta", class: "active" },
-        { refs: `/semana/${id}/quinta`, title: "Quinta", class: "active" },
-        { refs: `/semana/${id}/sexta`, title: "Sexta", class: "active" },
-      ]
+    const arrDias = Object.keys(dias)
+    const menu = arrDias.map(dia=>{
+      const refs =`/semana/${id}/${dia}`
+      const title =  `${toUpperFirtLetter(dia)}`
+      const hasClass = dias[dia].conteudo.length > 0 ? "active": false
+      return {
+        refs,
+        title,
+        class: hasClass
+      }
+    })
     return (
-        <Main items={items} title="Conteudo da Semana 8">
+        <Main items={menu} title={`Conteudo da Semana ${id}`}>
         <ul>
          {conteudo.length > 0 && conteudo.map((item, i)=>(
              <li key={i}>{item}</li>

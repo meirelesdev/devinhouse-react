@@ -5,23 +5,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
@@ -29,23 +29,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 }
             }
         },
@@ -53,23 +53,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
@@ -77,23 +77,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
@@ -101,23 +101,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
@@ -125,23 +125,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
@@ -149,23 +149,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
@@ -185,23 +185,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: true,
-                    counteudo: ["Componentes e Props", "Continuando com - Geometrizando"]
+                    conteudo: ["Componentes e Props", "Continuando com - Geometrizando"]
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 }
             }
         },
@@ -220,28 +220,28 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         },
         semana10: {
-            counteudo: [
+            conteudo: [
                 "Como funcionam as rotas de navegação com React",
                 "Utilizando a lib React-Router-Dom",
                 "Criando nossas próprias rotas",
@@ -264,23 +264,23 @@ export const content = {
             dias: {
                 segunda: { 
                     exercicios: true,
-                    counteudo: []
+                    conteudo: []
                 },
                 terca: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quarta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 quinta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
                 sexta: { 
                     exercicios: false,
-                    counteudo: []
+                    conteudo: []
                 },
             }
         }

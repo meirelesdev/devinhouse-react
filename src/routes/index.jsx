@@ -20,6 +20,7 @@ import Semana10Quarta from '../pages/semana10/quarta';
 import Semana10Quinta from '../pages/semana10/quinta';
 import Semana from '../pages/semana';
 import Dia from '../pages/semana/dia';
+import Exercicios from '../pages/semana/dia/exercicios';
 
 const Routes = () => {
   return (
@@ -27,6 +28,7 @@ const Routes = () => {
       <Route exact path="/" component={Home} />
       <Route exact path="/semana/:id" component={Semana} />
       <Route exact path="/semana/:id/:dia" component={Dia} />
+      <Route exact path="/semana/:id/:dia/exercicios" component={Exercicios} />
       <Route exact path="/" component={Home} />
       <Route path="/semana8/quarta/exercicios" component={Semana8QuartaExercicios} />
       <Route path="/semana8/quarta" component={Semana8Quarta} />
