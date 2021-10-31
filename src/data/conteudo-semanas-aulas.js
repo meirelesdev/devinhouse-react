@@ -1,177 +1,369 @@
 export const content = {
     conteudo: {
         semana1: {
-            conteudo: [],
+            conteudo: [
+                'Apresentação',
+                'Funcionamento de aplicações Web',
+                'Entendendo uma página html',
+                'Estrutura básica de uma página (html, head, title, body)',
+                'Tags (strong, h, p, br, hr, li, ol, ul, div)',
+                'Tags 2 (header, footer, section)',
+                'Estilos inline (font, color, background, text-align)',
+                'Formulários e div',
+                'Classes em css',
+                'Padding e Margin',
+                'Seletores',
+                'Box-model',
+                'Float',
+                'Media (video, img, áudio)'
+            ],
             dias: {
                 segunda: {
                     exercicios: true,
-                    conteudo: []
+                    conteudo: [
+                        'Apresentação',
+                        'Funcionamento de aplicações Web',
+                        'Entendendo uma página html']
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Estrutura básica de uma página (html, head, title, body)',
+                        'Tags (strong, h, p, br, hr, li, ol, ul, div)',
+                        'Tags 2 (header, footer, section)',
+                        'Estilos inline (font, color, background, text-align)'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Formulários e div',
+                        'Classes em css',
+                        'Padding e Margin']
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Seletores',
+                        'Box-model',
+                        'Float',
+                        'Media (video, img, áudio)'
+                    ]
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 },
             }
         },
         semana2: {
-            conteudo: [],
+            conteudo: [
+                'Fluxos e Processos',
+                'Variáveis e tipos de dados',
+                'Integração html/js',
+                'Operadores lógicos',
+                'Estruturas condicionais',
+                'integração entre html e js',
+                'Estruturas de repetição',
+                'integração entre html e js',
+                'Funções',
+                'integração entre html e js'
+            ],
             dias: {
                 segunda: {
-                    exercicios: true,
-                    conteudo: []
+                    exercicios: false,
+                    conteudo: [
+                        'Fluxos e Processos',
+                        'Variáveis e tipos de dados',
+                        'Integração html/js'
+                    ]
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Operadores lógicos',
+                        'Estruturas condicionais',
+                        'integração entre html e js'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Estruturas de repetição',
+                        'integração entre html e js'
+                    ]
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Funções',
+                        'integração entre html e js'
+                    ]
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 }
             }
         },
         semana3: {
-            conteudo: [],
+            conteudo: [
+                'DOM',
+                'Manipulação do DOM',
+                'As aulas de Terça e Quarta possiem o mesmo conteudo devido ao Desafio',
+                'Eventos',
+                'Kanban',
+                'localStorage'
+            ],
             dias: {
                 segunda: {
                     exercicios: true,
-                    conteudo: []
+                    conteudo: [
+                        'Kanban',
+                        'localStorage'
+                    ]
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'DOM',
+                        'Manipulação do DOM',
+                        'Eventos'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'DOM',
+                        'Manipulação do DOM',
+                        'Eventos'
+                    ]
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'JSON',
+                        'Interval',
+                        'Timeout'
+                    ]
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 },
             }
         },
         semana4: {
-            conteudo: [],
+            conteudo: [
+                'Flexbox',
+            ],
             dias: {
                 segunda: {
                     exercicios: true,
-                    conteudo: []
+                    conteudo: [
+                        'Flexbox',
+                        'Resolução de exercícios',
+                        'Criação de página utilizando conceitos de HTML, CSS e Flexbox',
+                        'Finalizar lista de exercícios',
+                        'Git',
+                        'Github',
+                        'Criação de um site portfólio com conceitos de flexbox',
+                        'Entendendo o git por linha de comando',
+                        'Principais comandos a serem utilizados',
+                        'Gitflow',
+                        'Criação de repositório no Github',
+                        'GitHub Desktop'
+                    ]
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Resolução de exercícios',
+                        'Criação de página utilizando conceitos de HTML, CSS e Flexbox'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Finalizar lista de exercícios',
+                        'Git',
+                        'Github',
+                        'Criação de um site portfólio com conceitos de flexbox'
+                    ]
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Entendendo o git por linha de comando',
+                        'Principais comandos a serem utilizados',
+                        'Gitflow',
+                        'Criação de repositório no Github',
+                        'GitHub Desktop'
+                    ]
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 },
             }
         },
         semana5: {
-            conteudo: [],
+            conteudo: [
+                'ECMAScript',
+                'Escopo',
+                'forEach',
+                'map',
+                'filter',
+                'Spread e Rest operators',
+                'Destructuring',
+                'Arrow Functions',
+                'Template Strings',
+                'Classes & Objetos',
+                'Programação Orientada a Objetos',
+                'Encapsulamento & Closures',
+                'Resolução de exercícios'
+            ],
             dias: {
                 segunda: {
                     exercicios: true,
-                    conteudo: []
+                    conteudo: [
+                        'ECMAScript',
+                        'Escopo',
+                        'forEach',
+                        'map',
+                        'filter'
+                    ]
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Spread e Rest operators',
+                        'Destructuring',
+                        'Arrow Functions',
+                        'Template Strings'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Classes & Objetos',
+                        'Programação Orientada a Objetos',
+                        'Encapsulamento & Closures'
+                    ]
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Resolução de exercícios']
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 },
             }
         },
         semana6: {
-            conteudo: [],
+            conteudo: [
+                'Revisão de Array.forEach',
+                'Revisão de Array.map',
+                'Revisão de Array.filter',
+                'Um pouquinho de Orientação a Objetos',
+                'Classes, estado e comportamento',
+                'Encapsulamento, getters e setters',
+                'Módulos javascript',
+                'Import e export',
+                'Desenvolver o Housebook'
+            ],
             dias: {
                 segunda: {
                     exercicios: true,
-                    conteudo: []
+                    conteudo: [
+                        'Revisão de Array.forEach',
+                        'Revisão de Array.map',
+                        'Revisão de Array.filter'
+                    ]
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Um pouquinho de Orientação a Objetos',
+                        'Classes, estado e comportamento',
+                        'Encapsulamento, getters e setters'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Módulos javascript',
+                        'Import e export'
+                    ]
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Desenvolver o Housebook'
+                    ]
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira Duvidas']
                 },
             }
         },
         semana7: {
-            conteudo: [],
+            conteudo: [
+                'Execução síncrona x assíncrona',
+                'Web browser features (recursos do navegador)',
+                'Call stack (pilha de execução) e Callback queue (fila de callback)',
+                'Definição de Promise',
+                'Callback hell',
+                'Métodos.then() e.catch()',
+                'Métodos de classe - Promise.all, Promise.allSettled',
+                'Fetch',
+                'Revisão de Promises',
+                'Sintaxe do async / await',
+                'Fetch',
+                'Destructuring',
+                'Operador rest - (...rest)',
+                'Operador spread - { ...objeto } e [ ... array ]'
+            ],
             dias: {
                 segunda: {
-                    exercicios: true,
-                    conteudo: []
+                    exercicios: false,
+                    conteudo: [
+                        'Execução síncrona x assíncrona',
+                        'Web browser features (recursos do navegador)',
+                        'Call stack (pilha de execução) e Callback queue (fila de callback)'
+                    ]
                 },
                 terca: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Definição de Promise',
+                        'Callback hell',
+                        'Métodos.then() e.catch()',
+                        'Métodos de classe - Promise.all, Promise.allSettled',
+                        'Fetch'
+                    ]
                 },
                 quarta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Revisão de Promises',
+                        'Sintaxe do async / await',
+                        'Fetch'
+                    ]
                 },
                 quinta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: [
+                        'Destructuring',
+                        'Operador rest - (...rest)',
+                        'Operador spread - { ...objeto } e [ ... array ]'
+                    ]
                 },
                 sexta: {
                     exercicios: false,
-                    conteudo: []
+                    conteudo: ['Tira duvidas']
                 },
             }
         },
