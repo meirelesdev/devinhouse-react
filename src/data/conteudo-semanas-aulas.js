@@ -1,6 +1,68 @@
 export const content = {
     conteudo: {
         semana1: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'Apresentação',
                 'Funcionamento de aplicações Web',
@@ -57,6 +119,68 @@ export const content = {
             }
         },
         semana2: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'Fluxos e Processos',
                 'Variáveis e tipos de dados',
@@ -107,6 +231,68 @@ export const content = {
             }
         },
         semana3: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'DOM',
                 'Manipulação do DOM',
@@ -154,6 +340,68 @@ export const content = {
             }
         },
         semana4: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'Flexbox',
             ],
@@ -208,6 +456,68 @@ export const content = {
             }
         },
         semana5: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'ECMAScript',
                 'Escopo',
@@ -262,6 +572,68 @@ export const content = {
             }
         },
         semana6: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'Revisão de Array.forEach',
                 'Revisão de Array.map',
@@ -310,6 +682,68 @@ export const content = {
             }
         },
         semana7: {
+            exercicios: [
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '',
+                    description: '',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 'Execução síncrona x assíncrona',
                 'Web browser features (recursos do navegador)',
@@ -368,6 +802,68 @@ export const content = {
             }
         },
         semana8: {
+            exercicios: [
+                {
+                    title: 'SP08 - Ex 1 - Componentes',
+                    description: 'O que são componentes na tecnologia ReactJs?',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 2 - Props',
+                    description: 'O que são as props de um componente no ReactJs? Cite um exemplo de declaração de componente com suas props.',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 3 - Renderização condicional',
+                    description: 'Do que se trata a renderização condicional? Cite um exemplo de componente renderizado condicionalmente?',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 4 - Componente <Button />',
+                    description: 'Crie um componente de botão com as props background (Cor de fundo do botão) e title (Texto do botão).',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 5 - Componente de Lista de contatos',
+                    description: 'Crie um componente de lista de contatos. Cada contato deve conter uma props photo, name e description.',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 6 - Componente de Post de rede social',
+                    description: 'Identifique as quantas e quais são as props do componente abaixo. Logo após, crie um componente Post passando todas as props identificadas.',
+                    done: true,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 7 - Componente de Produto',
+                    description: 'Crie um componente chamado Produto. Cada produto contém as props photo, name e price.',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 8 - Meu próprio componente',
+                    description: 'Crie o seu próprio componente contendo props e renderização condicional. Seja Criativo!',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 9 - Componente de Tabela',
+                    description: 'Crie um componente de Tabela contendo as props title, description, columns e data.',
+                    done: false,
+                    url:''
+                },
+                {
+                    title: '[SP08] - Ex 10 - Componente de Pokédex',
+                    description: 'Crie um componente de lista de pokémon. Cada item deve conter o nome do pokémon, o id do pokémon, sua foto e seus tipos(s). Use flex-box para o alinhamento dos itens. Seja criativo!',
+                    done: false,
+                    url:''
+                }
+            ],
             conteudo: [
                 "O que é React ?",
                 "Components",
@@ -408,6 +904,7 @@ export const content = {
             }
         },
         semana9: {
+            exercicios: [],
             conteudo: [
                 "Estado e setState",
                 "Componentes funcionais",
@@ -447,6 +944,7 @@ export const content = {
             }
         },
         semana10: {
+            exercicios: [],
             conteudo: [
                 "Como funcionam as rotas de navegação com React",
                 "Utilizando a lib React-Router-Dom",
