@@ -1,10 +1,13 @@
 import { useParams } from "react-router"
 
-const Exercicios = props => {
+const Exercicios = () => {
     const { id, dia } = useParams()
-    const menu = [{resf:'teste', title:'teste'}]
     return (
-        <h1>Tela para mostrar os exercicios da semana</h1>
+        <div>
+            <h1>
+                Pagina de exercicios da semana {id} dia {dia} ainda em construção.
+            </h1>
+        </div>
     )
 }
 
