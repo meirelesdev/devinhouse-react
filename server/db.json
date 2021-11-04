@@ -1,0 +1,91 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Michael Nascimento",
+      "avatar": "http://github.com/mikansc.png",
+      "apelido": "Mika",
+      "dataNascimento": "29/01/1991",
+      "profissao": "Desenvolvedor de Software I",
+      "endereco": {
+        "logradouro": "Rua ABC",
+        "numero": "123",
+        "bairro": "Um bairro",
+        "cidade": "Joinville",
+        "uf": "SC",
+        "cep": "89220000"
+      },
+      "telefone": "(47) 95555-5678",
+      "tecnologiaId": 1,
+      "bio": "Sou um desenvolvedor de software junior e mentor educacional",
+      "observacoes": ""
+    },
+    {
+      "nome": "Lucas Klein",
+      "apelido": "Lucas mesmo",
+      "dataNascimento": "19/02/2003",
+      "profissao": "Auxiliar Administrativo",
+      "tecnologiaId": "2",
+      "endereco": {
+        "logradouro": "R Qualquer",
+        "numero": "123",
+        "bairro": "Qualquer",
+        "cidade": "Nova Friburgo",
+        "uf": "RJ",
+        "cep": "99999999"
+      },
+      "observacoes": "Nenhuma",
+      "tecnologia": null,
+      "id": 2
+    },
+    {
+      "nome": "Matheus Gevartosky",
+      "apelido": "Matheus mesmo",
+      "dataNascimento": "23/07/1991",
+      "profissao": "Analista",
+      "tecnologiaId": "2",
+      "endereco": {
+        "logradouro": "Rua 123",
+        "numero": "321",
+        "bairro": "Jardim 456",
+        "cidade": "Joinville",
+        "uf": "SC",
+        "cep": "89999123"
+      },
+      "observacoes": "Nenhuma",
+      "id": 3
+    }
+  ],
+  "tecnologias": [
+    {
+      "id": 1,
+      "titulo": "React JS",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+      "descricao": "Uma biblioteca JavaScript para criar interfaces de usuário",
+      "links": [
+        "http://reactjs.org",
+        "https://kentcdodds.com/blog?q=react"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "JavaScript",
+      "logo": "https://fedojo.com/wp-content/uploads/2019/03/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png",
+      "descricao": "JavaScript é uma linguagem de progrmação",
+      "links": []
+    },
+    {
+      "titulo": "Python",
+      "logo": "https://static.cloud-boxloja.com/lojas/wyfyg/produtos/cf02b27f-ab1b-4a50-ad17-4aa4e0368a94.jpg",
+      "descricao": "Uma tecnologia nova, que é modinha",
+      "links": [
+        "https://www.python.org/"
+      ],
+      "id": 3
+    },
+    {
+      "links": [],
+      "id": 4
+    }
+  ]
+}

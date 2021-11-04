@@ -6,61 +6,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -124,61 +124,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -236,61 +236,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -345,61 +345,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -461,61 +461,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -577,61 +577,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -687,61 +687,61 @@ export const content = {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '',
                     description: '',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -807,61 +807,61 @@ export const content = {
                     title: 'SP08 - Ex 1 - Componentes',
                     description: 'O que são componentes na tecnologia ReactJs?',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 2 - Props',
                     description: 'O que são as props de um componente no ReactJs? Cite um exemplo de declaração de componente com suas props.',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 3 - Renderização condicional',
                     description: 'Do que se trata a renderização condicional? Cite um exemplo de componente renderizado condicionalmente?',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 4 - Componente <Button />',
                     description: 'Crie um componente de botão com as props background (Cor de fundo do botão) e title (Texto do botão).',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 5 - Componente de Lista de contatos',
                     description: 'Crie um componente de lista de contatos. Cada contato deve conter uma props photo, name e description.',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 6 - Componente de Post de rede social',
                     description: 'Identifique as quantas e quais são as props do componente abaixo. Logo após, crie um componente Post passando todas as props identificadas.',
                     done: true,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 7 - Componente de Produto',
                     description: 'Crie um componente chamado Produto. Cada produto contém as props photo, name e price.',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 8 - Meu próprio componente',
                     description: 'Crie o seu próprio componente contendo props e renderização condicional. Seja Criativo!',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 9 - Componente de Tabela',
                     description: 'Crie um componente de Tabela contendo as props title, description, columns e data.',
                     done: false,
-                    url:''
+                    url: ''
                 },
                 {
                     title: '[SP08] - Ex 10 - Componente de Pokédex',
                     description: 'Crie um componente de lista de pokémon. Cada item deve conter o nome do pokémon, o id do pokémon, sua foto e seus tipos(s). Use flex-box para o alinhamento dos itens. Seja criativo!',
                     done: false,
-                    url:''
+                    url: ''
                 }
             ],
             conteudo: [
@@ -1005,6 +1005,80 @@ export const content = {
                 sexta: {
                     exercicios: false,
                     conteudo: ['Tira duvidas']
+                },
+            }
+        },
+        semana11: {
+            exercicios: [],
+            conteudo: [
+                "createGlobalStyle",
+                "ThemeProvider",
+                "Gerenciamento de formulários",
+                "Formik - gerenciamento de formulários",
+                "Yup - validação de formulários",
+                "Submissão de formulário com POST",
+                "Material Complementar",
+            ],
+            dias: {
+                segunda: {
+                    exercicios: true,
+                    conteudo: [
+                        "createGlobalStyle",
+                        "ThemeProvider",
+                        "Gerenciamento de formulários",
+                        "Formik - gerenciamento de formulários",
+                        "Yup - validação de formulários",
+                        "Submissão de formulário com POST",
+                        "Material Complementar",
+                        "Ciclos de vida",
+                        "Métodos de ciclo de vida em componentes de classe",
+                        "Material Complementar",
+                    ]
+                },
+                terca: {
+                    exercicios: false,
+                    conteudo: [
+                        "Ciclos de vida",
+                        "Métodos de ciclo de vida em componentes de classe"
+                    ]
+                },
+                quarta: {
+                    exercicios: false,
+                    conteudo: []
+                },
+                quinta: {
+                    exercicios: false,
+                    conteudo: []
+                },
+                sexta: {
+                    exercicios: false,
+                    conteudo: []
+                },
+            }
+        },
+        semana12: {
+            exercicios: [],
+            conteudo: [],
+            dias: {
+                segunda: {
+                    exercicios: true,
+                    conteudo: []
+                },
+                terca: {
+                    exercicios: false,
+                    conteudo: []
+                },
+                quarta: {
+                    exercicios: false,
+                    conteudo: []
+                },
+                quinta: {
+                    exercicios: false,
+                    conteudo: []
+                },
+                sexta: {
+                    exercicios: false,
+                    conteudo: []
                 },
             }
         }

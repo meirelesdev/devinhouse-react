@@ -1,0 +1,6 @@
+{
+    "/api/*": "/$1",
+    "/usuarios": "/usuarios?_expand=tecnologia",
+    "/usuarios/:id": "/usuarios/:id?_expand=tecnologia"
+  }
+  
