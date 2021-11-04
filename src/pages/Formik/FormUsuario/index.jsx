@@ -8,7 +8,7 @@ import { Form, FormFieldset, FormFooter } from "../../../ComponentsFormik/Form";
 import { Paper } from "../../../ComponentsFormik/Paper";
 import { SelectInput } from "../../../ComponentsFormik/SelectInput";
 import { TextInput } from "../../../ComponentsFormik/TextInput";
-import { getAllTechs, saveNewUser } from "../../../services/api";
+import { getAllTechs } from "../../../services/api";
 import { PageDefault } from "../../../ComponentsFormik/templates/PageDefault";
 
 function isValidDate(message) {
