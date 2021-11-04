@@ -22,7 +22,6 @@ export const AppTheme = ({ children }) => {
 
   function getFromLocalStorage() {
     const themeFromLS = localStorage.getItem("app-dark-mode");
-    console.log(themeFromLS);
     if (themeFromLS) {
       setIsDark(themeFromLS === "true");
     }

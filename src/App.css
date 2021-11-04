@@ -18,14 +18,15 @@
 }
 a {
     text-decoration: none;
+    color: unset;
 }
 h1 {
    font-weight: 400;
    font-family: 'Oswald', sans-serif;
 }
-.logo {
-    color: black;
-}
+/* .logo a {
+    color: unset;
+} */
 .container {
     margin: 0 auto;
     max-width: 90%;
@@ -78,6 +79,17 @@ main.container {
 footer {
     margin: auto;
     max-width: 1024px;
+}
+.list-exercicios {
+    list-style: none;
+}
+.list-exercicios li {
+    margin: 8px;
+}
+.list-exercicios li a.disabled{
+    color: rgb(109, 101, 101);
+    background-color: rgb(77, 75, 75);
+    margin: 10px;
 }
 @media (max-width: 700px){
     .logo {

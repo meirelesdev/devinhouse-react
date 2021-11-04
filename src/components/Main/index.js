@@ -5,7 +5,7 @@ import Header from "../Header"
 const Main = props => {
   return <>
     <main className="container">
-      <Header items={props.items} />
+      <Header items={props.screen ? [] : props.items} />
       <h1>{props.title}</h1>
       <Content content={props.content}>
         {props.children}

@@ -804,7 +804,7 @@ export const content = {
         semana8: {
             exercicios: [
                 {
-                    title: 'SP08 - Ex 1 - Componentes',
+                    title: '[SP08] - Ex 1 - Componentes',
                     description: 'O que são componentes na tecnologia ReactJs?',
                     done: true,
                     url: ''
@@ -886,7 +886,7 @@ export const content = {
                     conteudo: []
                 },
                 quarta: {
-                    exercicios: true,
+                    exercicios: false,
                     conteudo: ["O que é React ?", "Componentes", "Iniciando o Projeto - Geometrizando"]
                 },
                 quinta: {

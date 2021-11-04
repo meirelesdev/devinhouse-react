@@ -1,19 +1,22 @@
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
+import Main from "../../../../components/Main"
+import { content } from '../../../../data/conteudo-semanas-aulas'
+
 
 const Exercicios = (props) => {
-    const { id, dia } = useParams()
+    const { id } = useParams()
+    const { exercicios } = content.conteudo[`semana${id}`]
+    console.log(exercicios.length)
     return (
-        <main>
-            
-            <section>
-                <h1>
-                    Pagina de exercicios da semana {id} dia {dia} ainda em construção.
-                </h1>
-                <div>
-                    {props.children}
-                </div>
-            </section>
-        </main>
+        <Main screen="exercicios" items={[]} content={exercicios.length > 0 ? false : true} title={`Exercícios da Semana ${id}`}>
+            <ul className="list-exercicios">
+                {exercicios.length > 0 && exercicios.map((ex, i) => (
+                    <li key={i}>
+                        <Link className={ex.done ? 'active' : 'disabled'} to={ex.url} >{ex.title}</Link>
+                    </li>
+                ))}
+            </ul>
+        </Main>
     )
 }
 

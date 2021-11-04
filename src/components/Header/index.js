@@ -3,7 +3,7 @@ import Menu from '../Menu/index'
 
 const Header = ({ items, ...props }) => {
   return (
-    <header>
+    <header className={props.screen}>
       <Link to="/">
         <h1 className="logo">
           DevInHouse
