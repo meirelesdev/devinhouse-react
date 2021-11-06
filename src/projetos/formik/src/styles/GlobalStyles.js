@@ -29,7 +29,9 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
   }
 
-  input {
+  input, button {
     font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: ${({ theme }) => theme.color.text};
   }
 `;

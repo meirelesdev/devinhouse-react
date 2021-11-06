@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-import { TextInput } from '../../../ComponentsFormik/TextInput'
-import { PageDefault } from '../../../ComponentsFormik/templates/PageDefault'
-import { Container } from '../../../ComponentsFormik/Container'
-import { Paper } from '../../../ComponentsFormik/Paper'
-import { Button } from '../../../ComponentsFormik/Button'
-import { Form } from '../../../ComponentsFormik/Form'
-import { FormFooter } from '../../../ComponentsFormik/Form'
-import { saveNewTech } from "../../../services/api";
+import { Button } from '../../components/Button'
+import { saveNewTech } from '../../services/api'
+import { PageDefault } from '../../components/templates/PageDefault'
+import { Container } from '../../components/Container'
+import { Paper } from '../../components/Paper'
+import { Form } from '../../components/Form'
+import { TextInput } from '../../components/TextInput'
+import { FormFooter } from '../../components/Form'
 
 export function FormTecnologia(props) {
   const [tecnologia, setTecnologia] = useState({});

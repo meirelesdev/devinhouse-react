@@ -7,8 +7,8 @@ export const SelectInput = ({ options = [], id, name, value, label, onChange, ..
       <StyledSelectLabel htmlFor={id || name}>{label}</StyledSelectLabel>
       <StyledSelect id={id || name} value={value} name={name} onChange={onChange} {...outros.field}>
         <option>Escolha...</option>
-        {options.map((option) => (
-          <option key={option.label} value={option.value}>
+        {options.map((option, i) => (
+          <option key={i} value={option.value}>
             {option.label}
           </option>
         ))}

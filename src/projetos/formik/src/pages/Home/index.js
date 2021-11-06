@@ -1,6 +1,7 @@
-import { Paper } from "../../../ComponentsFormik/Paper";
-import { Container } from "../../../ComponentsFormik/Container";
-import { PageDefault } from "../../../ComponentsFormik/templates/PageDefault";
+import { PageDefault } from '../../components/templates/PageDefault'
+import { Container } from '../../components/Container'
+import { Paper } from '../../components/Paper'
+
 
 export function Home() {
   return (

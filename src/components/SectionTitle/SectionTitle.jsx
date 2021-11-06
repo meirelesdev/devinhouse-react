@@ -1,6 +1,4 @@
-import './SectionTitle.css'
 import React from 'react'
-import Menu from '../MenuEx/Menu'
 import { Link } from 'react-router-dom'
 
 const SectionTitle = props => (

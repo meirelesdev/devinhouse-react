@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import * as Yup from "yup";
 import { Formik, Field, ErrorMessage } from "formik";
-
-import { Button } from "../../../ComponentsFormik/Button";
-import { Container } from "../../../ComponentsFormik/Container";
-import { Form, FormFieldset, FormFooter } from "../../../ComponentsFormik/Form";
-import { Paper } from "../../../ComponentsFormik/Paper";
-import { SelectInput } from "../../../ComponentsFormik/SelectInput";
-import { TextInput } from "../../../ComponentsFormik/TextInput";
-import { getAllTechs } from "../../../services/api";
-import { PageDefault } from "../../../ComponentsFormik/templates/PageDefault";
+import { Button } from '../../components/Button'
+import { Container } from "../../components/Container";
+import { Form, FormFieldset, FormFooter } from "../../components/Form";
+import { Paper } from "../../components/Paper";
+import { SelectInput } from "../../components/SelectInput";
+import { TextInput } from "../../components/TextInput";
+import { PageDefault } from "../../components/templates/PageDefault";
+import { getAllTechs } from "../../services/api";
 
 function isValidDate(message) {
   return this.test("isValidDate", message, function (value) {

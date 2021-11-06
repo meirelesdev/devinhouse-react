@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Container } from "../../../ComponentsFormik/Container";
-import { Paper } from "../../../ComponentsFormik/Paper";
-import { TechCard } from "../../../ComponentsFormik/TechCard";
-import { getAllTechs } from "../../../services/api";
-import { PageDefault } from "../../../ComponentsFormik/templates/PageDefault";
+import { Container } from "../../components/Container";
+import { Paper } from "../../components/Paper";
+import { TechCard } from "../../components/TechCard";
+import { getAllTechs } from "../../services/api";
+import { PageDefault } from "../../components/templates/PageDefault";
 import { StyledTechContainer } from "./ListaTecnologias.styles";
 
 export function ListaTecnologias() {
