@@ -84,6 +84,26 @@ footer {
 .list-exercicios li {
     margin: 8px;
 }
+.list-exercicios li a {
+    background-color: rgba(186, 182, 182, 0.755);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+.list-exercicios li a:hover {
+    background-color: rgba(0, 0, 0, 0.563);
+    color: white;
+}
+.list-exercicios li p {
+    text-indent: 25px;
+    margin: 10px auto;
+    padding: 5px;
+    color: rgba(21, 21, 21, 0.494);
+    background-color: blanchedalmond;
+    border-radius: 3px;
+    max-width: 95%;
+
+}
 .list-exercicios li a.disabled{
     color: rgb(109, 101, 101);
     background-color: rgb(77, 75, 75);
