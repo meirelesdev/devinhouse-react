@@ -1034,7 +1034,190 @@ export const content = {
             }
         },
         semana11: {
-            exercicios: [],
+            exercicios: [
+                {
+                    title: '[M1S11] - Ex 1 - Formik',
+                    description: `
+                    Crie um formulário para cadastro de um cliente, com os seguintes campos, todos gerenciados pelo Formik:
+                    nome, cpf, data de nascimento, telefone fixo, telefone celular.
+                    
+                    Use o método que preferir (componente Field, função setFieldValue, etc) para gerenciar os valores.
+
+                    O formulário deve ter um botão de submeter que, quando clicado, mostra no console os dados cadastrados (console.log)
+                    `,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 2 - Formik',
+                    description: `No formulário do exercício anterior, crie novos campos para cadastro do endereço do cliente: rua, número, complemento, bairro, cidade e estado.
+
+                    Todos esses dados precisam ser adicionados à uma propriedade “endereço” no estado do Formik.
+                    `,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 3 - Classes e ciclos de vida',
+                    description: `Sabendo que os principais métodos de ciclos de vida de uma classe são:
+                    - componentDidMount
+                    - componentDidUpdate
+                    - componentWillUnmount.
+                    Cite em quais fases do ciclo de vida cada um desses métodos é chamado e dê um exemplo de em qual situação cada um deles pode ser utilizado.`,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 4 - Classes e ciclos de vida',
+                    description: `Converta o componente funcional abaixo em componente de classe utilizando os métodos de ciclo de vida.
+
+                    Obs: os métodos são fictícios. Não se preocupe com o funcionamento, apenas com a reescrita do código.
+                    
+                    export const MeuComponente = ( ) => { 
+                        const [ nome, setNome ] = useState( “” ) 
+                    
+                        useEffect ( (  ) => { 
+                            fetchNome(  ).then( result => setNome( result ) );
+                    
+                            return ( ) => { 
+                                notifyUser( “ O componente foi desmontado. ” )
+                    }
+                     },  [  ] )
+                    
+                    useEffect ( ( ) => { 
+                        console.log( “ O nome foi alterado. “ ) 
+                     } , [ nome ]  )
+                    
+                        return (
+                            <div>
+                                <p> Olá, {nome}! </p>
+                                <button onClick={ ( ) => { setNome( “desconhecido” ) }  } > Mudar	<button>
+                            </div>
+                     )
+                    }`,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 5 - Classes e ciclos de vida',
+                    description: `
+                    Converta o componente de classe abaixo em um componente funcional utilizando os hooks. 
+
+                    Não se preocupe em implementar os componentes, pois o exercício é apenas para exercitar a refatoração.
+                    Mas caso queira verificar o funcionamento, este componente faz parte do projeto desenvolvido em aula.
+                    Segue link do componente no repositório do projeto:
+                    https://github.com/mikansc/devinhouse-formik/blob/main/src/pages/ListaUsuarios/ListaUsuarios.jsx
+                    
+                    export function ListaUsuarios() {
+                      const [usuarios, setUsuarios] = useState([]);
+                    
+                      useEffect(() => {
+                        getAllUsers().then(setUsuarios);
+                      }, []);
+                    
+                      return (
+                        <PageDefault>
+                          <Container>
+                            <Paper>
+                              <h2>Todos os usuários</h2>
+                              <StyledUserContainer>
+                                {usuarios.length === 0 ? (
+                                  <p> Nenhum usuário encontrado. </p>
+                                ) : (
+                                  usuarios.map((usuario) => <UserCard key={usuario.id} usuario={usuario} />)
+                                )}
+                              </StyledUserContainer>
+                            </Paper>
+                          </Container>
+                        </PageDefault>
+                      );
+                    }
+                    `,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 6 - Classes, error boundary',
+                    description: `
+                    O componente ErrorBoundary é um tipo de componente que ajuda a isolarmos os erros que eventualmente possam acontecer em nossa aplicação.
+                    Ele só pode ser aplicado por meio de componentes de classe.
+
+                    Crie um componente ErrorBoundary usando os métodos vistos em aula.
+                    `,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 7 - Composição, prop-drilling, arquitetura',
+                    description: `
+                    Utilizando a técnica de composição de componente, crie um componente Card que seja formado por um CardHeader, CardContent e CardFooter.
+                    Use a criatividade para implementar este card em um projeto React!`,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 8 - Composição, prop-drilling, arquitetura',
+                    description: `
+                    Quando organizamos nossos arquivos, é boa prática deixarmos componentes bem nomeados e dentro de diretórios em que faça sentido eles estarem.
+                    Não existe uma maneira correta, e o padrão a ser seguido geralmente depende do que o time acordou na concepção do projeto.
+
+                    Dada a lista de componentes abaixo, como você organizaria estes componentes em pastas? 
+                    Veja o nome dos componentes para imaginar uma estrutura de pastas que faça sentido.
+                    
+                    - Botao.js
+                    - InputTexto.js
+                    - Form.js
+                    - Container.js
+                    - InputSeletor.js
+                    - CardProduto.js
+                    - CardProdutoHeader.js
+                    - CardProdutoBody.js
+                    - GlobalStyles.js
+                    - use-autenticador.js
+                    - use-fetch-produtos.js
+                    - produtos-context.js
+                    - routes.js
+                    - logotipo.png
+                    - PaginaHome
+                    - PaginaListaUsuarios
+                    - PaginaListaProdutos
+                    `,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 9 - Debugging, useMemo, useCallback, memo',
+                    description: `
+                    O React possui dois hooks para memoização de componentes (salvamento desse componente em uma espécie de “cache” virtual). 
+                    Esses hooks nos ajudam a melhorar a performance em ocasiões específicas, onde a re-renderização de um componente pode se tornar um processo lento.
+
+                    Cite a diferença entre o useCallback e o useMemo, e como poderíamos usar ambos para melhorar a performance de um componente com processamento lento.
+                    `,
+                    done: false,
+                    url: ''
+                },
+                {
+                    title: '[M1S11] - Ex 10 - React Developer Tools',
+                    description: `Vamos treinar a utilização do React Developer Tools.
+
+                    Execute no aplicação MeuCadastro.com e navegue até a página “Novo usuário”.
+                    
+                    Utilizando a ferramenta Developer Tools e a aba Components, encontre na árvore de componentes o componente Formik.
+                    
+                    a) Quantos componentes são renderizados a partir do Formik (incluindo ele) até o TextInput com a prop “label” igual a “Apelido:” ?
+                    
+                    b) Selecionando o Formik, qual o nome do componente responsável por renderizar o Formik na listagem “rendered by”?
+                    
+                    c) Qual o nome do componente que renderiza todos os outros componentes da aplicação, indicado na listagem “rendered by”? 
+                    
+                    d) Na tela “Tecnologias”, quais são as props passadas para o componente ListaTecnologias? Quantos hooks este componente tem?
+                    
+                    e) O TechCard com a key = 1 possui uma propriedade chamada “tecnologia”, que recebe um objeto. Qual o valor da propriedade “título” dentro desse objeto?
+                    `,
+                    done: false,
+                    url: ''
+                }
+            ],
             conteudo: [
                 "createGlobalStyle",
                 "ThemeProvider",

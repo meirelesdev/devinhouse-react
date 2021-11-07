@@ -78,6 +78,18 @@ footer {
     margin: auto;
     max-width: 1024px;
 }
+li.exercicios {
+    padding: 10px;
+    font-size: 15pt;
+    text-decoration: underline;
+    
+}
+.description-exercicios {
+    margin: 15px auto;
+    font-size: 16pt;
+    text-align: center;
+    text-decoration: underline;
+}
 .list-exercicios {
     list-style: none;
 }
@@ -94,7 +106,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.563);
     color: white;
 }
-.list-exercicios li p {
+.list-exercicios li pre {
     text-indent: 25px;
     margin: 10px auto;
     padding: 5px;
@@ -102,6 +114,8 @@ footer {
     background-color: blanchedalmond;
     border-radius: 3px;
     max-width: 95%;
+    overflow: scroll;
+
 
 }
 .list-exercicios li a.disabled{

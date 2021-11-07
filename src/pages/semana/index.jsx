@@ -5,7 +5,7 @@ import { toUpperFirtLetter } from '../../services/functions'
 
 const Semana = () => {
     const { id } = useParams()
-    const {dias, conteudo } = content.conteudo[`semana${id}`];
+    const {dias, conteudo, exercicios } = content.conteudo[`semana${id}`];
     const arrDias = Object.keys(dias)
     const menu = arrDias.map(dia=>{
       const refs =`/semana/${id}/${dia}`
@@ -20,6 +20,7 @@ const Semana = () => {
     return (
         <Main items={menu} title={`Conteudo da Semana ${id}`}>
         <ul>
+          {exercicios.length > 0 ? <li className="exercicios">Esta semana temos Exercicios</li> : <li className="exercicios">Esta semana não temos Exercicios</li>}
          {conteudo.length > 0 && conteudo.map((item, i)=>(
              <li key={i}>{item}</li>
          ))}
