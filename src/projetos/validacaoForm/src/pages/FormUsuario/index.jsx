@@ -81,7 +81,7 @@ export function FormUsuario(props) {
                   <Field component={TextInput} TextInput type="textarea" name="observacoes" label="Observações:" />
                   <ErrorMessage name="observacoes" />
                   <FormFooter>
-                    <Button variant="success" title="Salvar" onClick={handleSubmit} />
+                    <Button className="disabled" variant="success" title="Salvar" onClick={handleSubmit} />
                     <Button variant="warning" title="Limpar" onClick={() => {}} />
                   </FormFooter>
                 </Form>

@@ -2,6 +2,7 @@ export const content = {
     conteudo: {
         semana1: {
             exercicios: [],
+            projetos: [],
             conteudo: [
                 'Apresentação',
                 'Funcionamento de aplicações Web',
@@ -59,6 +60,7 @@ export const content = {
         },
         semana2: {
             exercicios: [],
+            projetos: [],
             conteudo: [
                 'Fluxos e Processos',
                 'Variáveis e tipos de dados',
@@ -109,6 +111,7 @@ export const content = {
             }
         },
         semana3: {
+            projetos: [],
             exercicios: [
                 {
                     title: '[SP03] - Ex 1 - Calcule automaticamente a idade',
@@ -232,6 +235,14 @@ export const content = {
             conteudo: [
                 'Flexbox',
             ],
+            projetos: [
+                {
+                    title: 'Projeto Avaliativo 1 - To-Do List',
+                    description:'Você está participando de um processo seletivo para ingressar em uma vaga de programador em uma grande empresa de TI. Uma das etapas do processo envolve a criação de uma aplicação web de lista de afazeres (“to-do list”).',
+                    url: {pathname:'https://meirelesdev.github.io/to-do-list-devinhouse/'},
+                    target: '_blank'
+                }
+            ],
             dias: {
                 segunda: {
                     exercicios: true,
@@ -283,6 +294,7 @@ export const content = {
             }
         },
         semana5: {
+            projetos: [],
             exercicios: [
                 {
                     title: '[SP05] - Ex1 - Let, Var, Const, Classes e Atributos',
@@ -452,6 +464,7 @@ export const content = {
             }
         },
         semana6: {
+            projetos: [],
             exercicios: [
                 {
                     title: '[SP06] - Ex 1 - Array.forEach',
@@ -652,6 +665,7 @@ export const content = {
             }
         },
         semana7: {
+            projetos: [],
             exercicios: [
                 {
                     title: '[SP07] - Ex 1 - JavaScript assíncrono',
@@ -827,6 +841,7 @@ export const content = {
             }
         },
         semana8: {
+            projetos: [],
             exercicios: [
                 {
                     title: '[SP08] - Ex 1 - Componentes',
@@ -929,6 +944,7 @@ export const content = {
             }
         },
         semana9: {
+            projetos: [],
             exercicios: [],
             conteudo: [
                 "Estado e setState",
@@ -969,6 +985,7 @@ export const content = {
             }
         },
         semana10: {
+            projetos: [],
             exercicios: [],
             conteudo: [
                 "Como funcionam as rotas de navegação com React",
@@ -1034,6 +1051,7 @@ export const content = {
             }
         },
         semana11: {
+            projetos: [],
             exercicios: [
                 {
                     title: '[M1S11] - Ex 1 - Formik',
@@ -1269,6 +1287,7 @@ export const content = {
             }
         },
         semana12: {
+            projetos: [],
             exercicios: [],
             conteudo: [],
             dias: {

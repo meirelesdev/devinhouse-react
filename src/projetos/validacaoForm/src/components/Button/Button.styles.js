@@ -17,7 +17,7 @@ export const StyledButton = styled.button`
   cursor: pointer;
   transition: opacity 180ms ease-in-out;
   background-color: ${({ theme, variant }) => getBackgroundColor(variant, theme)};
-
+  
   &:hover {
     opacity: 0.75;
   }
