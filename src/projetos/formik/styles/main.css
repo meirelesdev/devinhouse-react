@@ -23,8 +23,6 @@ body {
   color: var(--cor-texto-padrao);
 }
 body {
-  display: grid;
-  align-items: center;
   width: 100%;
   height: 100%;
   justify-content: center;
